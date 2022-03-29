@@ -1,18 +1,22 @@
 #page {
     display: grid;
     grid-template-columns: 8fr 2fr;
+    height: 500px;
 }
 
 #up {
+    align-self: center;
     justify-self: center;
     grid-column: 1;
     border: 1px solid black;
     width: 800px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    height: 110px;
 }
 
 button {
+   padding-top: 10%;
     height: 100px;
     width: 100px;
     border-radius: 100%;
@@ -40,10 +44,7 @@ button {
 #g{
     background: #D2CFC8;
 }
-#buttons {
-    grid-column: 2;
-    justify-content: flex-start;
-}
+
 #soumettre {
     grid-column : 3;
     height: 50px;
