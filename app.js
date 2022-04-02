@@ -13,7 +13,6 @@ const positionAleatoire = Math.floor(Math.random() * 5);
 choix_ordi.push(choix_totaux[positionAleatoire])
 }
 
-console.log(choix_ordi);
 
 let mon_choix = []
 
